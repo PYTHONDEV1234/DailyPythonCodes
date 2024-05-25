@@ -42,7 +42,7 @@ students =[
 well_sorted = sorted(students , key =lambda x:(x['age'],x['grade']))
 print(well_sorted)
 
-
+print("------------------- Example 5 -------------------")
 data = [
     {'name':'John','scores':[50,45,78,99,70]},
     {'name':'Vicky','scores':[25,45,38,19,40]},
@@ -54,6 +54,8 @@ transform = lambda d: {'name': d['name'].upper(), 'average_score': sum(d['scores
 transformed_data = list(map(transform, data))
 print(transformed_data)
 
+
+print("------------------- Example 6 -------------------")
 operations ={
     'add':lambda x, y : x+y,
     'sub':lambda x, y : x-y
