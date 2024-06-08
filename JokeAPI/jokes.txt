@@ -1,0 +1,22 @@
+[
+    {
+        "joke": "Everytime there is no joke",
+        "id": 3
+    },
+    {
+        "joke": "Why don't skeletons fight each other? They don't have the guts.",
+        "id": 4
+    },
+    {
+        "joke": "I will  tell any new joke.",
+        "id": 5
+    },
+    {
+        "joke": "Why don't skeletons fight each other? They don't have the guts.",
+        "id": 6
+    },
+    {
+        "joke": "Why don't skeletons fight each other? This is not a joke do not laugh.",
+        "id": 7
+    }
+]
