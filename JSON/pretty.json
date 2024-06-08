@@ -1,0 +1,9 @@
+{
+    "name": "Arvinder",
+    "Age": 45,
+    "Languages": {
+        "Primary": "Hindi",
+        "Secondary": "English"
+    },
+    "Phone": "1234567890"
+}
