@@ -1,0 +1,105 @@
+{
+  "start": {
+    "title": "The Quest Begins",
+    "description": "You are Bob, an adventurous food enthusiast known for your love for tacos. Rumor has it that there exists a mythical taco recipe hidden deep within the Enchanted Forest. Determined to find this legendary taco, you set off on a quest into the forest.",
+    "choices": [
+      {
+        "key": "A",
+        "description": "Follow the glowing mushroom path.",
+        "outcome": "You follow the glowing mushroom path and encounter a mischievous fairy who challenges you to a dance-off. You impress the fairy with your moves, and she gives you a magic flute that will help you charm forest creatures.",
+        "action": "add_to_inventory: magic flute",
+        "next_scene": "owl_riddle"
+      },
+      {
+        "key": "B",
+        "description": "Investigate the cinnamon roll scent.",
+        "outcome": "You stumble upon a friendly squirrel bakery where cinnamon roll-making squirrels offer you snacks. They give you a magic acorn that acts as a compass to the taco's location.",
+        "action": "add_to_inventory: magic acorn",
+        "next_scene": "owl_riddle"
+      }
+    ]
+  },
+  "owl_riddle": {
+    "title": "The Riddle of the Wise Owl",
+    "description": "Deep in the forest, you encounter a wise old owl perched on a branch. It guards the entrance to the Taco Cave, where the legendary recipe is said to reside.",
+    "choices": [
+      {
+        "key": "A",
+        "description": "Answer the owl's riddle.",
+        "outcome": "The owl asks you, \"What has a shell but no pearl?\" You cleverly answer, \"A taco shell!\" Impressed, the owl grants you passage into the Taco Cave.",
+        "next_scene": "taco_cave"
+      },
+      {
+        "key": "B",
+        "description": "Charm the owl with your magic flute/acorn.",
+        "outcome": "Using your flute/acorn, you charm the owl with a catchy squirrel dance, distracting it long enough to slip past into the Taco Cave.",
+        "next_scene": "taco_cave"
+      }
+    ]
+  },
+  "taco_cave": {
+    "title": "The Taco Cave",
+    "description": "Inside the Taco Cave, you find a maze of taco-themed puzzles and traps. Each corridor leads deeper into the cave, filled with taco-scented breezes and salsa rivers.",
+    "choices": [
+      {
+        "key": "A",
+        "description": "Solve the cheese maze puzzle.",
+        "outcome": "You successfully navigate through a maze made entirely of melting cheese, avoiding cheesy traps. At the end, you find a secret door leading to the heart of the cave.",
+        "next_scene": "help_option"
+      },
+      {
+        "key": "B",
+        "description": "Brave the spicy jalapeño obstacle course.",
+        "outcome": "You endure the fiery jalapeño course, surviving spicy challenges and dodging salsa eruptions. Your bravery earns you the respect of the taco guardians.",
+        "next_scene": "help_option"
+      }
+    ]
+  },
+  "help_option": {
+    "title": "Help Me!",
+    "description": "You encounter a mysterious altar with glowing runes. You have a feeling that typing 'Help Me' here might give you a chance to try your luck again.",
+    "choices": [
+      {
+        "key": "A",
+        "description": "Type 'Help Me'.",
+        "outcome": "You cautiously type 'Help Me'. The runes glow brighter, and you feel a surge of luck. You are granted three more chances to try your luck in the Taco Cave.",
+        "action": "grant_luck: 3",
+        "next_scene": "legendary_taco"
+      },
+      {
+        "key": "B",
+        "description": "Continue without help.",
+        "outcome": "You decide to press on without seeking help. The path ahead looks challenging, but you're determined to find the legendary taco.",
+        "next_scene": "legendary_taco"
+      }
+    ]
+  },
+  "legendary_taco": {
+    "title": "The Legendary Taco",
+    "description": "At the heart of the Taco Cave, you find an ancient kitchen with a glowing taco stand. The legendary taco recipe rests on a pedestal, emitting a heavenly aroma.",
+    "choices": [
+      {
+        "key": "A",
+        "description": "Read the recipe and make the taco.",
+        "outcome": "You carefully follow the recipe, assembling the taco with magical ingredients. The first bite transports you to a world of joy and satisfaction, as you experience the legendary happiness-inducing taco.",
+        "next_scene": "end"
+      },
+      {
+        "key": "B",
+        "description": "Dance with joy and celebrate finding the taco.",
+        "outcome": "You dance with joy, and suddenly the taco guardians appear, joining your celebration. They gift you with a magical taco that never runs out of fillings.",
+        "next_scene": "end"
+      }
+    ]
+  },
+  "end": {
+    "title": "Congratulations!",
+    "description": "Congratulations! You have successfully found the legendary taco and experienced its incredible taste. As you leave the Taco Cave, you reflect on your adventure and cherish the memories of your quest for the ultimate taco.",
+    "choices": []
+  },
+  "dead_end": {
+    "title": "Oh no! Dead End",
+    "description": "You took a wrong turn and fell into a pit of salsa. Unfortunately, there's no way out. Your quest for the legendary taco ends here.",
+    "choices": []
+  }
+}
