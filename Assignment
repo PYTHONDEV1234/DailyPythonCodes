@@ -1,0 +1,11 @@
+Greeting Program 
+
+Depending upon the time you will greet your friends 
+
+four modules - good Morning - Before 11 AM 
+                Good Afternoon - Till 5 pm 
+                Good Evening -   till 8 pm 
+                Good Night - For rest of the time 
+
+5 python files - goodMorning.py --> Greet --> Print("Hi Good Morning")
+                goodAfternoon.py --> Greet --> Print("Hi Good Afternoon")
