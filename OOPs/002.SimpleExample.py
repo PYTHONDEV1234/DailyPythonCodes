@@ -18,7 +18,7 @@ print(dellLaptop.display_details())
 
 print(dellLaptop.brand)
 print(HPLaptop.price)
-
+print(dellLaptop.price)
 # Anything under a class is not accessible without using objects 
 #print(display_details())
 #print(brand)
