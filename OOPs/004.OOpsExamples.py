@@ -57,3 +57,5 @@ print(rect1.perimter())
 # Create a Circle Class 
 # It will accept Radius as variable
 # It should have functions to print the circumference and area of a circle 
+
+# Take one real life example and think about the properties(class members) amd its behaviour(methods)
