@@ -29,6 +29,7 @@ class ATM:
         print("Your've withdrawn 100$.")
 
 bank1 = ATM()
+# bank2 = ATM()
 choice = int(input())
 
 if choice == 1:
