@@ -1,5 +1,6 @@
 class SelfieApp:
     def __init__(self):
+        
         print("Internet connection successful.!!!!!!!")
         print("Camera enabled successfully.!!!!!!!")
     
@@ -12,3 +13,4 @@ class SelfieApp:
 user1 = SelfieApp()
 print(user1.ClickPhoto())
 print(user1.UploadPhoto())
+
